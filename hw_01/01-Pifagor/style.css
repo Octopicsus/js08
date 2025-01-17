@@ -1,0 +1,28 @@
+body {
+  font-family: Arial;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #696969;
+}
+
+table {
+  border-collapse: collapse;
+  background: #fff;
+}
+
+th,
+td {
+  width: 24px;
+  height: 24px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+th {
+  background-color: #7e7e7e;
+  color: white;
+}

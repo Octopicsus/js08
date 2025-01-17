@@ -1,0 +1,16 @@
+.main {
+  margin-top: 50px;
+  font-size: 24px;
+}
+
+.main p:first-child {
+  color: red;
+}
+
+.dynamic {
+  font-size: 32px;
+  font-style: italic;
+  text-decoration: underline;
+  color: blue;
+  font-weight: bold;
+}
