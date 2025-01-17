@@ -9,6 +9,6 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 function scaleImage(scale) {
-  const imageElement = document.getElementById("randomImage");
-  imageElement.style.transform = `scale(${scale})`;
+ const cardImage = document.getElementById("randomImage"); 
+  cardImage.style.transform = `scale(${scale})`;
 }
