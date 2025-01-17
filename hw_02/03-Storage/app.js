@@ -1,14 +1,14 @@
 function saveUserInfo(key, value) {
   sessionStorage.setItem(key, value);
-  console.log(`Saved ${key}: ${value}`);
+  console.log(`Saved | ${key}: ${value}`);
 }
 
 function getUserInfo(key) {
   const value = sessionStorage.getItem(key);
-  console.log(`Retrieved ${key}: ${value}`);
   return value;
 }
 
-saveUserInfo("username", "JohnDoe");
+saveUserInfo("username", "Octo");
+saveUserInfo("skill", "Developer");
 
-console.log(getUserInfo("username"));
+console.log(`\n${getUserInfo("username")}`);
