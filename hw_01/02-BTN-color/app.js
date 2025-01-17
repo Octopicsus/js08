@@ -1,7 +1,7 @@
 const colorPalette = document.getElementById("colorWindow");
 const button = document.getElementById("button");
 
-let isDefaultColor = false;
+let isDefaultColor = true;
 
 button.textContent = "ON";
 colorPalette.style.backgroundColor = "#ffbe0a";
